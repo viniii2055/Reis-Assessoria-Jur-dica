@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reis Assessoria Jurídica</title>
+  <style>
+    :root {
+      --primary-color: #00264d;
+      --secondary-color: #0077b6;
+      --light-bg: #f9f9f9;
+      --text-color: #333;
+      --white: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--light-bg);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: var(--white);
+      padding: 40px 20px 30px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 80px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      font-size: 2em;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .section {
+      background: var(--white);
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: var(--primary-color);
+    }
+
+    a {
+      color: var(--secondary-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      background: var(--primary-color);
+      color: var(--white);
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.5em;
+      }
+
+      .container {
+        padding: 20px;
+      }
+
+      .logo {
+        width: 60px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Logotipo -->
+    <img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" alt="Logo Justiça" class="logo" />
+    <h1>Reis Assessoria Jurídica</h1>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Contato</h2>
+      <p><strong>Telefone:</strong> <a href="tel:+551936231898">(19) 3623-1898</a></p>
+      <p><strong>Email:</strong> <a href="mailto:reis.assessoriajuridica@gmail.com">reis.assessoriajuridica@gmail.com</a></p>
+    </section>
+
+    <section class="section">
+      <h2>Endereço</h2>
+      <p>Rua Visconde de Rio Branco, 726</p>
+      <p>CEP: 13870-010</p>
+      <p>São João da Boa Vista, SP, Brasil</p>
+    </section>
+
+    <section class="section">
+      <h2>Responsável</h2>
+      <p><strong>Divino Gomes Dos Reis</strong></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Reis Assessoria Jurídica. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
